@@ -1,0 +1,2158 @@
+{
+  "meta": {
+    "product": "Ather Mobility Intelligence",
+    "version": "1.0.0",
+    "environment": "Illustrative demo",
+    "lastUpdated": "2026-11-02",
+    "dataClass": "SYNTHETIC · ILLUSTRATIVE",
+    "dataBasis": "All named rider profiles, telemetry summaries, vehicle condition indices, policies and outcomes in this prototype are synthetic. Operating ranges are scenario assumptions for UI demonstration, not measured Ather fleet data or external research findings.",
+    "recordCount": 72,
+    "sampleRecordCount": 72
+  },
+  "riders": [
+    {
+      "id": "R-1042",
+      "name": "Arjun Mehta",
+      "vehicle": "450X Gen 3",
+      "vin": "ATH-45X-1042",
+      "city": "Bengaluru",
+      "km90": 842,
+      "days90": 86,
+      "score": 812,
+      "band": "Smooth",
+      "health": 94,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Progressive braking",
+        "Consistent riding cadence"
+      ],
+      "lastRide": "Today, 08:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1043",
+      "name": "Mira Shah",
+      "vehicle": "450X Gen 3",
+      "vin": "ATH-45X-1043",
+      "city": "Mumbai",
+      "km90": 714,
+      "days90": 79,
+      "score": 776,
+      "band": "Steady",
+      "health": 91,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "Low harsh-braking frequency",
+        "Regular service adherence"
+      ],
+      "lastRide": "Today, 09:16",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1044",
+      "name": "Kabir Rao",
+      "vehicle": "Rizta Z",
+      "vin": "ATH-RIZ-1044",
+      "city": "Pune",
+      "km90": 662,
+      "days90": 73,
+      "score": 731,
+      "band": "Steady",
+      "health": 88,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": false
+      },
+      "riskSignals": [
+        "Stable speed profile",
+        "Occasional abrupt acceleration"
+      ],
+      "lastRide": "Yesterday, 19:34",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1045",
+      "name": "Isha Nair",
+      "vehicle": "450S",
+      "vin": "ATH-45S-1045",
+      "city": "Bengaluru",
+      "km90": 590,
+      "days90": 62,
+      "score": 688,
+      "band": "Steady",
+      "health": 86,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "Service reminder due",
+        "Moderate exposure variability"
+      ],
+      "lastRide": "Today, 07:52",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1046",
+      "name": "Dev Malhotra",
+      "vehicle": "450X",
+      "vin": "ATH-45X-1046",
+      "city": "Delhi NCR",
+      "km90": 556,
+      "days90": 54,
+      "score": 655,
+      "band": "Building",
+      "health": 83,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "High night-riding share",
+        "Tyre inspection reminder"
+      ],
+      "lastRide": "Yesterday, 21:11",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1047",
+      "name": "Sara Khan",
+      "vehicle": "Rizta S",
+      "vin": "ATH-RIZ-1047",
+      "city": "Hyderabad",
+      "km90": 523,
+      "days90": 47,
+      "score": 622,
+      "band": "Building",
+      "health": 90,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": true,
+        "offers": false
+      },
+      "riskSignals": [
+        "Frequent short rides",
+        "Consistent braking"
+      ],
+      "lastRide": "Today, 08:06",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1048",
+      "name": "Rohan Das",
+      "vehicle": "450S",
+      "vin": "ATH-45S-1048",
+      "city": "Mumbai",
+      "km90": 318,
+      "days90": 24,
+      "score": null,
+      "band": "Not eligible",
+      "health": 89,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": false,
+        "offers": false
+      },
+      "riskSignals": [
+        "Insufficient history"
+      ],
+      "lastRide": "Today, 07:18",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1049",
+      "name": "Anaya Iyer",
+      "vehicle": "450X",
+      "vin": "ATH-45X-1049",
+      "city": "Bengaluru",
+      "km90": 921,
+      "days90": 90,
+      "score": 842,
+      "band": "Smooth",
+      "health": 97,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Consistent braking",
+        "High vehicle-care adherence"
+      ],
+      "lastRide": "Today, 09:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1050",
+      "name": "Neil Joseph",
+      "vehicle": "Rizta Z",
+      "vin": "ATH-RIZ-1050",
+      "city": "Pune",
+      "km90": 641,
+      "days90": 61,
+      "score": 704,
+      "band": "Steady",
+      "health": 92,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "Smooth cornering",
+        "Stable usage pattern"
+      ],
+      "lastRide": "Yesterday, 18:22",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1051",
+      "name": "Tara Sen",
+      "vehicle": "450X",
+      "vin": "ATH-45X-1051",
+      "city": "Delhi NCR",
+      "km90": 768,
+      "days90": 83,
+      "score": 761,
+      "band": "Steady",
+      "health": 95,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Low harsh acceleration",
+        "Good service adherence"
+      ],
+      "lastRide": "Today, 08:54",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1052",
+      "name": "Demo Rider 11",
+      "vehicle": "450X Gen 3",
+      "vin": "ATH-45X-1052",
+      "city": "Mumbai",
+      "km90": 371,
+      "days90": 49,
+      "score": null,
+      "band": "Not eligible",
+      "health": 89,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Progressive braking",
+        "Consistent riding cadence"
+      ],
+      "lastRide": "Today, 08:15",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1053",
+      "name": "Demo Rider 12",
+      "vehicle": "450X",
+      "vin": "ATH-45X-1053",
+      "city": "Delhi NCR",
+      "km90": 508,
+      "days90": 66,
+      "score": 700,
+      "band": "Steady",
+      "health": 96,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "Low harsh-braking frequency",
+        "Regular service adherence"
+      ],
+      "lastRide": "Today, 18:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1054",
+      "name": "Demo Rider 13",
+      "vehicle": "450S",
+      "vin": "ATH-45S-1054",
+      "city": "Kochi",
+      "km90": 645,
+      "days90": 83,
+      "score": 753,
+      "band": "Steady",
+      "health": 79,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": false
+      },
+      "riskSignals": [
+        "Stable speed profile",
+        "Occasional abrupt acceleration"
+      ],
+      "lastRide": "Yesterday, 19:10",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1055",
+      "name": "Demo Rider 14",
+      "vehicle": "Rizta Z",
+      "vin": "ATH-RIZ-1055",
+      "city": "Pune",
+      "km90": 782,
+      "days90": 27,
+      "score": null,
+      "band": "Not eligible",
+      "health": 86,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Service reminder due",
+        "Moderate exposure variability"
+      ],
+      "lastRide": "Today, 07:35",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1056",
+      "name": "Demo Rider 15",
+      "vehicle": "Rizta S",
+      "vin": "ATH-RIZ-1056",
+      "city": "Chennai",
+      "km90": 919,
+      "days90": 44,
+      "score": 859,
+      "band": "Smooth",
+      "health": 93,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "High night-riding share",
+        "Tyre inspection reminder"
+      ],
+      "lastRide": "Today, 08:15",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1057",
+      "name": "Demo Rider 16",
+      "vehicle": "450X Gen 3",
+      "vin": "ATH-45X-1057",
+      "city": "Bengaluru",
+      "km90": 1056,
+      "days90": 61,
+      "score": 561,
+      "band": "Building",
+      "health": 76,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Frequent short rides",
+        "Consistent braking"
+      ],
+      "lastRide": "Today, 18:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1058",
+      "name": "Demo Rider 17",
+      "vehicle": "450X",
+      "vin": "ATH-45X-1058",
+      "city": "Hyderabad",
+      "km90": 373,
+      "days90": 78,
+      "score": null,
+      "band": "Not eligible",
+      "health": 83,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Smooth cornering",
+        "Stable usage pattern"
+      ],
+      "lastRide": "Yesterday, 19:10",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1059",
+      "name": "Demo Rider 18",
+      "vehicle": "450S",
+      "vin": "ATH-45S-1059",
+      "city": "Ahmedabad",
+      "km90": 510,
+      "days90": 22,
+      "score": null,
+      "band": "Not eligible",
+      "health": 90,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": false,
+        "offers": false
+      },
+      "riskSignals": [
+        "High vehicle-care adherence",
+        "Predictable weekly distance"
+      ],
+      "lastRide": "Today, 07:35",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1060",
+      "name": "Demo Rider 19",
+      "vehicle": "Rizta Z",
+      "vin": "ATH-RIZ-1060",
+      "city": "Mumbai",
+      "km90": 647,
+      "days90": 39,
+      "score": 720,
+      "band": "Steady",
+      "health": 97,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Progressive braking",
+        "Consistent riding cadence"
+      ],
+      "lastRide": "Today, 08:15",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1061",
+      "name": "Demo Rider 20",
+      "vehicle": "Rizta S",
+      "vin": "ATH-RIZ-1061",
+      "city": "Delhi NCR",
+      "km90": 784,
+      "days90": 56,
+      "score": 773,
+      "band": "Steady",
+      "health": 80,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Low harsh-braking frequency",
+        "Regular service adherence"
+      ],
+      "lastRide": "Today, 18:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1062",
+      "name": "Demo Rider 21",
+      "vehicle": "450X Gen 3",
+      "vin": "ATH-45X-1062",
+      "city": "Kochi",
+      "km90": 921,
+      "days90": 73,
+      "score": 826,
+      "band": "Smooth",
+      "health": 87,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "Stable speed profile",
+        "Occasional abrupt acceleration"
+      ],
+      "lastRide": "Yesterday, 19:10",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1063",
+      "name": "Demo Rider 22",
+      "vehicle": "450X",
+      "vin": "ATH-45X-1063",
+      "city": "Pune",
+      "km90": 1058,
+      "days90": 90,
+      "score": 879,
+      "band": "Smooth",
+      "health": 94,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Service reminder due",
+        "Moderate exposure variability"
+      ],
+      "lastRide": "Today, 07:35",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1064",
+      "name": "Demo Rider 23",
+      "vehicle": "450S",
+      "vin": "ATH-45S-1064",
+      "city": "Chennai",
+      "km90": 375,
+      "days90": 34,
+      "score": null,
+      "band": "Not eligible",
+      "health": 77,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": false
+      },
+      "riskSignals": [
+        "High night-riding share",
+        "Tyre inspection reminder"
+      ],
+      "lastRide": "Today, 08:15",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1065",
+      "name": "Demo Rider 24",
+      "vehicle": "Rizta Z",
+      "vin": "ATH-RIZ-1065",
+      "city": "Bengaluru",
+      "km90": 512,
+      "days90": 51,
+      "score": 634,
+      "band": "Building",
+      "health": 84,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "Frequent short rides",
+        "Consistent braking"
+      ],
+      "lastRide": "Today, 18:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1066",
+      "name": "Demo Rider 25",
+      "vehicle": "Rizta S",
+      "vin": "ATH-RIZ-1066",
+      "city": "Hyderabad",
+      "km90": 649,
+      "days90": 68,
+      "score": 687,
+      "band": "Steady",
+      "health": 91,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Smooth cornering",
+        "Stable usage pattern"
+      ],
+      "lastRide": "Yesterday, 19:10",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1067",
+      "name": "Demo Rider 26",
+      "vehicle": "450X Gen 3",
+      "vin": "ATH-45X-1067",
+      "city": "Ahmedabad",
+      "km90": 786,
+      "days90": 85,
+      "score": 740,
+      "band": "Steady",
+      "health": 98,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "High vehicle-care adherence",
+        "Predictable weekly distance"
+      ],
+      "lastRide": "Today, 07:35",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1068",
+      "name": "Demo Rider 27",
+      "vehicle": "450X",
+      "vin": "ATH-45X-1068",
+      "city": "Mumbai",
+      "km90": 923,
+      "days90": 29,
+      "score": null,
+      "band": "Not eligible",
+      "health": 81,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "Progressive braking",
+        "Consistent riding cadence"
+      ],
+      "lastRide": "Today, 08:15",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1069",
+      "name": "Demo Rider 28",
+      "vehicle": "450S",
+      "vin": "ATH-45S-1069",
+      "city": "Delhi NCR",
+      "km90": 1060,
+      "days90": 46,
+      "score": 846,
+      "band": "Smooth",
+      "health": 88,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": true,
+        "offers": false
+      },
+      "riskSignals": [
+        "Low harsh-braking frequency",
+        "Regular service adherence"
+      ],
+      "lastRide": "Today, 18:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1070",
+      "name": "Demo Rider 29",
+      "vehicle": "Rizta Z",
+      "vin": "ATH-RIZ-1070",
+      "city": "Kochi",
+      "km90": 377,
+      "days90": 63,
+      "score": null,
+      "band": "Not eligible",
+      "health": 95,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Stable speed profile",
+        "Occasional abrupt acceleration"
+      ],
+      "lastRide": "Yesterday, 19:10",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1071",
+      "name": "Demo Rider 30",
+      "vehicle": "Rizta S",
+      "vin": "ATH-RIZ-1071",
+      "city": "Pune",
+      "km90": 514,
+      "days90": 80,
+      "score": 601,
+      "band": "Building",
+      "health": 78,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "Service reminder due",
+        "Moderate exposure variability"
+      ],
+      "lastRide": "Today, 07:35",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1072",
+      "name": "Demo Rider 31",
+      "vehicle": "450X Gen 3",
+      "vin": "ATH-45X-1072",
+      "city": "Chennai",
+      "km90": 651,
+      "days90": 24,
+      "score": null,
+      "band": "Not eligible",
+      "health": 85,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "High night-riding share",
+        "Tyre inspection reminder"
+      ],
+      "lastRide": "Today, 08:15",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1073",
+      "name": "Demo Rider 32",
+      "vehicle": "450X",
+      "vin": "ATH-45X-1073",
+      "city": "Bengaluru",
+      "km90": 788,
+      "days90": 41,
+      "score": 707,
+      "band": "Steady",
+      "health": 92,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Frequent short rides",
+        "Consistent braking"
+      ],
+      "lastRide": "Today, 18:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1074",
+      "name": "Demo Rider 33",
+      "vehicle": "450S",
+      "vin": "ATH-45S-1074",
+      "city": "Hyderabad",
+      "km90": 925,
+      "days90": 58,
+      "score": 760,
+      "band": "Steady",
+      "health": 99,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": false,
+        "offers": false
+      },
+      "riskSignals": [
+        "Smooth cornering",
+        "Stable usage pattern"
+      ],
+      "lastRide": "Yesterday, 19:10",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1075",
+      "name": "Demo Rider 34",
+      "vehicle": "Rizta Z",
+      "vin": "ATH-RIZ-1075",
+      "city": "Ahmedabad",
+      "km90": 1062,
+      "days90": 75,
+      "score": 813,
+      "band": "Smooth",
+      "health": 82,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "High vehicle-care adherence",
+        "Predictable weekly distance"
+      ],
+      "lastRide": "Today, 07:35",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1076",
+      "name": "Demo Rider 35",
+      "vehicle": "Rizta S",
+      "vin": "ATH-RIZ-1076",
+      "city": "Mumbai",
+      "km90": 379,
+      "days90": 19,
+      "score": null,
+      "band": "Not eligible",
+      "health": 89,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Progressive braking",
+        "Consistent riding cadence"
+      ],
+      "lastRide": "Today, 08:15",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1077",
+      "name": "Demo Rider 36",
+      "vehicle": "450X Gen 3",
+      "vin": "ATH-45X-1077",
+      "city": "Delhi NCR",
+      "km90": 516,
+      "days90": 36,
+      "score": 568,
+      "band": "Building",
+      "health": 96,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "Low harsh-braking frequency",
+        "Regular service adherence"
+      ],
+      "lastRide": "Today, 18:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1078",
+      "name": "Demo Rider 37",
+      "vehicle": "450X",
+      "vin": "ATH-45X-1078",
+      "city": "Kochi",
+      "km90": 653,
+      "days90": 53,
+      "score": 621,
+      "band": "Building",
+      "health": 79,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Stable speed profile",
+        "Occasional abrupt acceleration"
+      ],
+      "lastRide": "Yesterday, 19:10",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1079",
+      "name": "Demo Rider 38",
+      "vehicle": "450S",
+      "vin": "ATH-45S-1079",
+      "city": "Pune",
+      "km90": 790,
+      "days90": 70,
+      "score": 674,
+      "band": "Building",
+      "health": 86,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": false
+      },
+      "riskSignals": [
+        "Service reminder due",
+        "Moderate exposure variability"
+      ],
+      "lastRide": "Today, 07:35",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1080",
+      "name": "Demo Rider 39",
+      "vehicle": "Rizta Z",
+      "vin": "ATH-RIZ-1080",
+      "city": "Chennai",
+      "km90": 927,
+      "days90": 87,
+      "score": 727,
+      "band": "Steady",
+      "health": 93,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "High night-riding share",
+        "Tyre inspection reminder"
+      ],
+      "lastRide": "Today, 08:15",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1081",
+      "name": "Demo Rider 40",
+      "vehicle": "Rizta S",
+      "vin": "ATH-RIZ-1081",
+      "city": "Bengaluru",
+      "km90": 1064,
+      "days90": 31,
+      "score": 780,
+      "band": "Steady",
+      "health": 76,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Frequent short rides",
+        "Consistent braking"
+      ],
+      "lastRide": "Today, 18:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1082",
+      "name": "Demo Rider 41",
+      "vehicle": "450X Gen 3",
+      "vin": "ATH-45X-1082",
+      "city": "Hyderabad",
+      "km90": 381,
+      "days90": 48,
+      "score": null,
+      "band": "Not eligible",
+      "health": 83,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Smooth cornering",
+        "Stable usage pattern"
+      ],
+      "lastRide": "Yesterday, 19:10",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1083",
+      "name": "Demo Rider 42",
+      "vehicle": "450X",
+      "vin": "ATH-45X-1083",
+      "city": "Ahmedabad",
+      "km90": 518,
+      "days90": 65,
+      "score": 886,
+      "band": "Smooth",
+      "health": 90,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "High vehicle-care adherence",
+        "Predictable weekly distance"
+      ],
+      "lastRide": "Today, 07:35",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1084",
+      "name": "Demo Rider 43",
+      "vehicle": "450S",
+      "vin": "ATH-45S-1084",
+      "city": "Mumbai",
+      "km90": 655,
+      "days90": 82,
+      "score": 588,
+      "band": "Building",
+      "health": 97,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": false
+      },
+      "riskSignals": [
+        "Progressive braking",
+        "Consistent riding cadence"
+      ],
+      "lastRide": "Today, 08:15",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1085",
+      "name": "Demo Rider 44",
+      "vehicle": "Rizta Z",
+      "vin": "ATH-RIZ-1085",
+      "city": "Delhi NCR",
+      "km90": 792,
+      "days90": 26,
+      "score": null,
+      "band": "Not eligible",
+      "health": 80,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Low harsh-braking frequency",
+        "Regular service adherence"
+      ],
+      "lastRide": "Today, 18:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1086",
+      "name": "Demo Rider 45",
+      "vehicle": "Rizta S",
+      "vin": "ATH-RIZ-1086",
+      "city": "Kochi",
+      "km90": 929,
+      "days90": 43,
+      "score": 694,
+      "band": "Steady",
+      "health": 87,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "Stable speed profile",
+        "Occasional abrupt acceleration"
+      ],
+      "lastRide": "Yesterday, 19:10",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1087",
+      "name": "Demo Rider 46",
+      "vehicle": "450X Gen 3",
+      "vin": "ATH-45X-1087",
+      "city": "Pune",
+      "km90": 1066,
+      "days90": 60,
+      "score": 747,
+      "band": "Steady",
+      "health": 94,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Service reminder due",
+        "Moderate exposure variability"
+      ],
+      "lastRide": "Today, 07:35",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1088",
+      "name": "Demo Rider 47",
+      "vehicle": "450X",
+      "vin": "ATH-45X-1088",
+      "city": "Chennai",
+      "km90": 383,
+      "days90": 77,
+      "score": null,
+      "band": "Not eligible",
+      "health": 77,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "High night-riding share",
+        "Tyre inspection reminder"
+      ],
+      "lastRide": "Today, 08:15",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1089",
+      "name": "Demo Rider 48",
+      "vehicle": "450S",
+      "vin": "ATH-45S-1089",
+      "city": "Bengaluru",
+      "km90": 520,
+      "days90": 21,
+      "score": null,
+      "band": "Not eligible",
+      "health": 84,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": false,
+        "offers": false
+      },
+      "riskSignals": [
+        "Frequent short rides",
+        "Consistent braking"
+      ],
+      "lastRide": "Today, 18:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1090",
+      "name": "Demo Rider 49",
+      "vehicle": "Rizta Z",
+      "vin": "ATH-RIZ-1090",
+      "city": "Hyderabad",
+      "km90": 657,
+      "days90": 38,
+      "score": 555,
+      "band": "Needs attention",
+      "health": 91,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Smooth cornering",
+        "Stable usage pattern"
+      ],
+      "lastRide": "Yesterday, 19:10",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1091",
+      "name": "Demo Rider 50",
+      "vehicle": "Rizta S",
+      "vin": "ATH-RIZ-1091",
+      "city": "Ahmedabad",
+      "km90": 794,
+      "days90": 55,
+      "score": 608,
+      "band": "Building",
+      "health": 98,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "High vehicle-care adherence",
+        "Predictable weekly distance"
+      ],
+      "lastRide": "Today, 07:35",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1092",
+      "name": "Demo Rider 51",
+      "vehicle": "450X Gen 3",
+      "vin": "ATH-45X-1092",
+      "city": "Mumbai",
+      "km90": 931,
+      "days90": 72,
+      "score": 661,
+      "band": "Building",
+      "health": 81,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "Progressive braking",
+        "Consistent riding cadence"
+      ],
+      "lastRide": "Today, 08:15",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1093",
+      "name": "Demo Rider 52",
+      "vehicle": "450X",
+      "vin": "ATH-45X-1093",
+      "city": "Delhi NCR",
+      "km90": 1068,
+      "days90": 89,
+      "score": 714,
+      "band": "Steady",
+      "health": 88,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Low harsh-braking frequency",
+        "Regular service adherence"
+      ],
+      "lastRide": "Today, 18:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1094",
+      "name": "Demo Rider 53",
+      "vehicle": "450S",
+      "vin": "ATH-45S-1094",
+      "city": "Kochi",
+      "km90": 385,
+      "days90": 33,
+      "score": null,
+      "band": "Not eligible",
+      "health": 95,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": false
+      },
+      "riskSignals": [
+        "Stable speed profile",
+        "Occasional abrupt acceleration"
+      ],
+      "lastRide": "Yesterday, 19:10",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1095",
+      "name": "Demo Rider 54",
+      "vehicle": "Rizta Z",
+      "vin": "ATH-RIZ-1095",
+      "city": "Pune",
+      "km90": 522,
+      "days90": 50,
+      "score": 820,
+      "band": "Smooth",
+      "health": 78,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "Service reminder due",
+        "Moderate exposure variability"
+      ],
+      "lastRide": "Today, 07:35",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1096",
+      "name": "Demo Rider 55",
+      "vehicle": "Rizta S",
+      "vin": "ATH-RIZ-1096",
+      "city": "Chennai",
+      "km90": 659,
+      "days90": 67,
+      "score": 873,
+      "band": "Smooth",
+      "health": 85,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "High night-riding share",
+        "Tyre inspection reminder"
+      ],
+      "lastRide": "Today, 08:15",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1097",
+      "name": "Demo Rider 56",
+      "vehicle": "450X Gen 3",
+      "vin": "ATH-45X-1097",
+      "city": "Bengaluru",
+      "km90": 796,
+      "days90": 84,
+      "score": 575,
+      "band": "Building",
+      "health": 92,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Frequent short rides",
+        "Consistent braking"
+      ],
+      "lastRide": "Today, 18:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1098",
+      "name": "Demo Rider 57",
+      "vehicle": "450X",
+      "vin": "ATH-45X-1098",
+      "city": "Hyderabad",
+      "km90": 933,
+      "days90": 28,
+      "score": null,
+      "band": "Not eligible",
+      "health": 99,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "Smooth cornering",
+        "Stable usage pattern"
+      ],
+      "lastRide": "Yesterday, 19:10",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1099",
+      "name": "Demo Rider 58",
+      "vehicle": "450S",
+      "vin": "ATH-45S-1099",
+      "city": "Ahmedabad",
+      "km90": 1070,
+      "days90": 45,
+      "score": 681,
+      "band": "Steady",
+      "health": 82,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": false
+      },
+      "riskSignals": [
+        "High vehicle-care adherence",
+        "Predictable weekly distance"
+      ],
+      "lastRide": "Today, 07:35",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1100",
+      "name": "Demo Rider 59",
+      "vehicle": "Rizta Z",
+      "vin": "ATH-RIZ-1100",
+      "city": "Mumbai",
+      "km90": 387,
+      "days90": 62,
+      "score": null,
+      "band": "Not eligible",
+      "health": 89,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Progressive braking",
+        "Consistent riding cadence"
+      ],
+      "lastRide": "Today, 08:15",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1101",
+      "name": "Demo Rider 60",
+      "vehicle": "Rizta S",
+      "vin": "ATH-RIZ-1101",
+      "city": "Delhi NCR",
+      "km90": 524,
+      "days90": 79,
+      "score": 787,
+      "band": "Steady",
+      "health": 96,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "Low harsh-braking frequency",
+        "Regular service adherence"
+      ],
+      "lastRide": "Today, 18:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1102",
+      "name": "Demo Rider 61",
+      "vehicle": "450X Gen 3",
+      "vin": "ATH-45X-1102",
+      "city": "Kochi",
+      "km90": 661,
+      "days90": 23,
+      "score": null,
+      "band": "Not eligible",
+      "health": 79,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Stable speed profile",
+        "Occasional abrupt acceleration"
+      ],
+      "lastRide": "Yesterday, 19:10",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1103",
+      "name": "Demo Rider 62",
+      "vehicle": "450X",
+      "vin": "ATH-45X-1103",
+      "city": "Pune",
+      "km90": 798,
+      "days90": 40,
+      "score": 542,
+      "band": "Needs attention",
+      "health": 86,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Service reminder due",
+        "Moderate exposure variability"
+      ],
+      "lastRide": "Today, 07:35",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1104",
+      "name": "Demo Rider 63",
+      "vehicle": "450S",
+      "vin": "ATH-45S-1104",
+      "city": "Chennai",
+      "km90": 935,
+      "days90": 57,
+      "score": 595,
+      "band": "Building",
+      "health": 93,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": false,
+        "offers": false
+      },
+      "riskSignals": [
+        "High night-riding share",
+        "Tyre inspection reminder"
+      ],
+      "lastRide": "Today, 08:15",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1105",
+      "name": "Demo Rider 64",
+      "vehicle": "Rizta Z",
+      "vin": "ATH-RIZ-1105",
+      "city": "Bengaluru",
+      "km90": 1072,
+      "days90": 74,
+      "score": 648,
+      "band": "Building",
+      "health": 76,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Frequent short rides",
+        "Consistent braking"
+      ],
+      "lastRide": "Today, 18:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1106",
+      "name": "Demo Rider 65",
+      "vehicle": "Rizta S",
+      "vin": "ATH-RIZ-1106",
+      "city": "Hyderabad",
+      "km90": 389,
+      "days90": 18,
+      "score": null,
+      "band": "Not eligible",
+      "health": 83,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Smooth cornering",
+        "Stable usage pattern"
+      ],
+      "lastRide": "Yesterday, 19:10",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1107",
+      "name": "Demo Rider 66",
+      "vehicle": "450X Gen 3",
+      "vin": "ATH-45X-1107",
+      "city": "Ahmedabad",
+      "km90": 526,
+      "days90": 35,
+      "score": 754,
+      "band": "Steady",
+      "health": 90,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "High vehicle-care adherence",
+        "Predictable weekly distance"
+      ],
+      "lastRide": "Today, 07:35",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1108",
+      "name": "Demo Rider 67",
+      "vehicle": "450X",
+      "vin": "ATH-45X-1108",
+      "city": "Mumbai",
+      "km90": 663,
+      "days90": 52,
+      "score": 807,
+      "band": "Smooth",
+      "health": 97,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Progressive braking",
+        "Consistent riding cadence"
+      ],
+      "lastRide": "Today, 08:15",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1109",
+      "name": "Demo Rider 68",
+      "vehicle": "450S",
+      "vin": "ATH-45S-1109",
+      "city": "Delhi NCR",
+      "km90": 800,
+      "days90": 69,
+      "score": 860,
+      "band": "Smooth",
+      "health": 80,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": true,
+        "offers": false
+      },
+      "riskSignals": [
+        "Low harsh-braking frequency",
+        "Regular service adherence"
+      ],
+      "lastRide": "Today, 18:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1110",
+      "name": "Demo Rider 69",
+      "vehicle": "Rizta Z",
+      "vin": "ATH-RIZ-1110",
+      "city": "Kochi",
+      "km90": 937,
+      "days90": 86,
+      "score": 562,
+      "band": "Building",
+      "health": 87,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "Stable speed profile",
+        "Occasional abrupt acceleration"
+      ],
+      "lastRide": "Yesterday, 19:10",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1111",
+      "name": "Demo Rider 70",
+      "vehicle": "Rizta S",
+      "vin": "ATH-RIZ-1111",
+      "city": "Pune",
+      "km90": 1074,
+      "days90": 30,
+      "score": 615,
+      "band": "Building",
+      "health": 94,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "Service reminder due",
+        "Moderate exposure variability"
+      ],
+      "lastRide": "Today, 07:35",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1112",
+      "name": "Demo Rider 71",
+      "vehicle": "450X Gen 3",
+      "vin": "ATH-45X-1112",
+      "city": "Chennai",
+      "km90": 391,
+      "days90": 47,
+      "score": null,
+      "band": "Not eligible",
+      "health": 77,
+      "consent": {
+        "ridescore": true,
+        "insurance": true,
+        "claims": true,
+        "offers": true
+      },
+      "riskSignals": [
+        "High night-riding share",
+        "Tyre inspection reminder"
+      ],
+      "lastRide": "Today, 08:15",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    },
+    {
+      "id": "R-1113",
+      "name": "Demo Rider 72",
+      "vehicle": "450X",
+      "vin": "ATH-45X-1113",
+      "city": "Bengaluru",
+      "km90": 528,
+      "days90": 64,
+      "score": 721,
+      "band": "Steady",
+      "health": 84,
+      "consent": {
+        "ridescore": true,
+        "insurance": false,
+        "claims": false,
+        "offers": true
+      },
+      "riskSignals": [
+        "Frequent short rides",
+        "Consistent braking"
+      ],
+      "lastRide": "Today, 18:42",
+      "dataClass": "SYNTHETIC · ILLUSTRATIVE"
+    }
+  ],
+  "fleets": [
+    {
+      "id": "FL-01",
+      "name": "QuickDrop Logistics",
+      "city": "Bengaluru",
+      "vehicles": 42,
+      "health": 94,
+      "score": 746,
+      "riders": 38,
+      "alerts": 4,
+      "uptime": 98.2
+    },
+    {
+      "id": "FL-02",
+      "name": "CitySprint Mobility",
+      "city": "Mumbai",
+      "vehicles": 28,
+      "health": 91,
+      "score": 712,
+      "riders": 26,
+      "alerts": 6,
+      "uptime": 96.8
+    },
+    {
+      "id": "FL-03",
+      "name": "GreenRoute Services",
+      "city": "Pune",
+      "vehicles": 19,
+      "health": 96,
+      "score": 781,
+      "riders": 18,
+      "alerts": 2,
+      "uptime": 99.1
+    }
+  ],
+  "vehicles": [
+    {
+      "vin": "ATH-45X-1042",
+      "model": "450X Gen 3",
+      "fleet": "QuickDrop",
+      "health": 94,
+      "odo": 12400,
+      "status": "Healthy"
+    },
+    {
+      "vin": "ATH-RIZ-1044",
+      "model": "Rizta Z",
+      "fleet": "QuickDrop",
+      "health": 88,
+      "odo": 8900,
+      "status": "Monitor"
+    },
+    {
+      "vin": "ATH-45S-1045",
+      "model": "450S",
+      "fleet": "CitySprint",
+      "health": 86,
+      "odo": 10200,
+      "status": "Service due"
+    },
+    {
+      "vin": "ATH-45X-1046",
+      "model": "450X",
+      "fleet": "CitySprint",
+      "health": 83,
+      "odo": 15600,
+      "status": "Monitor"
+    },
+    {
+      "vin": "ATH-45X-1049",
+      "model": "450X",
+      "fleet": "GreenRoute",
+      "health": 97,
+      "odo": 7200,
+      "status": "Healthy"
+    }
+  ],
+  "policies": [
+    {
+      "id": "POL-2401",
+      "insurer": "Insurer A",
+      "product": "Comprehensive",
+      "premium": 2140,
+      "commission": 12,
+      "status": "Converted",
+      "rider": "R-1042"
+    },
+    {
+      "id": "POL-2402",
+      "insurer": "Insurer B",
+      "product": "Comprehensive + RSA",
+      "premium": 1980,
+      "commission": 14,
+      "status": "Quoted",
+      "rider": "R-1043"
+    },
+    {
+      "id": "POL-2403",
+      "insurer": "Insurer A",
+      "product": "Battery protection",
+      "premium": 860,
+      "commission": 10,
+      "status": "Converted",
+      "rider": "R-1049"
+    },
+    {
+      "id": "POL-2404",
+      "insurer": "Insurer C",
+      "product": "Comprehensive",
+      "premium": 2310,
+      "commission": 12,
+      "status": "Renewal due",
+      "rider": "R-1050"
+    },
+    {
+      "id": "POL-2405",
+      "insurer": "Insurer B",
+      "product": "Comprehensive",
+      "premium": 2050,
+      "commission": 14,
+      "status": "Converted",
+      "rider": "R-1051"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-1042",
+      "rider": "R-1042",
+      "event": "Impact detected",
+      "date": "31 Oct 2026",
+      "status": "Awaiting human review",
+      "evidence": [
+        "Impact event marker",
+        "Timestamp",
+        "Vehicle health snapshot"
+      ],
+      "consent": true
+    },
+    {
+      "id": "CLM-1043",
+      "rider": "R-1046",
+      "event": "Vehicle fall alert",
+      "date": "29 Oct 2026",
+      "status": "Evidence consent required",
+      "evidence": [
+        "Fall event marker",
+        "Timestamp"
+      ],
+      "consent": false
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "REC-01",
+      "rider": "R-1042",
+      "type": "COACHING",
+      "title": "Maintain progressive braking",
+      "confidence": 0.91,
+      "status": "Approved",
+      "why": "Consistent smooth braking appears across the recent ride sample."
+    },
+    {
+      "id": "REC-02",
+      "rider": "R-1046",
+      "type": "SERVICE",
+      "title": "Schedule tyre and brake inspection",
+      "confidence": 0.84,
+      "status": "Pending review",
+      "why": "Wear indicators and night-riding exposure suggest a timely inspection reminder."
+    }
+  ],
+  "agentRuns": [
+    {
+      "id": "RUN-8224736",
+      "createdAt": "2026-11-02T08:30:24.736Z",
+      "status": "Awaiting human decision",
+      "rider": "R-1042",
+      "headline": "Smooth riding profile · 94/100 vehicle health",
+      "judgeScore": 0.93,
+      "decision": "Pending",
+      "agents": [
+        "Telemetry Quality Agent",
+        "Riding Behaviour Agent",
+        "Vehicle Health Agent",
+        "Exposure Context Agent",
+        "Insurance Opportunity Agent"
+      ],
+      "summary": "Multi-agent analysis completed. Judge has prepared a review brief; no action is taken until a human reviewer decides.",
+      "agentDetails": [
+        {
+          "name": "Telemetry Quality Agent",
+          "role": "Data validation",
+          "status": "Complete",
+          "confidence": 0.97,
+          "output": "842 km and 86 days of synthetic telemetry passed completeness checks.",
+          "evidence": [
+            "Ride event coverage 96%",
+            "Timestamp sequence consistent",
+            "Outlier scan: 2 low-severity flags"
+          ]
+        },
+        {
+          "name": "Riding Behaviour Agent",
+          "role": "Behaviour analytics",
+          "status": "Complete",
+          "confidence": 0.91,
+          "output": "Smooth pattern; key signals: Progressive braking, Consistent riding cadence.",
+          "evidence": [
+            "Smoothness trend assessed",
+            "Harsh braking frequency assessed",
+            "No protected attributes used"
+          ]
+        },
+        {
+          "name": "Vehicle Health Agent",
+          "role": "Predictive maintenance",
+          "status": "Complete",
+          "confidence": 0.94,
+          "output": "Vehicle health index 94/100. No urgent maintenance signal.",
+          "evidence": [
+            "Battery/vehicle health proxy",
+            "Service adherence proxy",
+            "No diagnostic fault claim"
+          ]
+        },
+        {
+          "name": "Exposure Context Agent",
+          "role": "Context modelling",
+          "status": "Complete",
+          "confidence": 0.82,
+          "output": "Exposure features are aggregated to coarse time and distance bands; precise route is excluded.",
+          "evidence": [
+            "Night-use share band",
+            "Distance band",
+            "No raw GPS included"
+          ]
+        },
+        {
+          "name": "Insurance Opportunity Agent",
+          "role": "Commercial matching",
+          "status": "Complete",
+          "confidence": 0.86,
+          "output": "Potential opt-in renewal conversation. No premium or risk decision is generated.",
+          "evidence": [
+            "Purpose-specific consent check",
+            "Product eligibility is insurer-owned",
+            "Commission estimate is illustrative"
+          ]
+        }
+      ],
+      "judge": {
+        "name": "LLM Judge · Evidence & Policy Reviewer",
+        "score": 0.93,
+        "verdict": "HUMAN REVIEW REQUIRED",
+        "reason": "Evidence is sufficiently complete for a human reviewer. Commercial use remains consent-gated; no underwriting recommendation is made.",
+        "checks": [
+          {
+            "label": "Evidence sufficiency",
+            "result": "Pass"
+          },
+          {
+            "label": "Consent boundary",
+            "result": "Pass"
+          },
+          {
+            "label": "Protected data exclusion",
+            "result": "Pass"
+          },
+          {
+            "label": "No automated underwriting",
+            "result": "Pass"
+          },
+          {
+            "label": "Agent disagreement",
+            "result": "Low"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RUN-0007",
+      "createdAt": "2026-11-02T09:42:00.000Z",
+      "status": "Reviewed",
+      "rider": "R-1042",
+      "headline": "Progressive braking pattern is consistent",
+      "judgeScore": 0.94,
+      "decision": "Approved",
+      "agents": [
+        "Telemetry Quality Agent",
+        "Riding Behaviour Agent",
+        "Vehicle Health Agent",
+        "Exposure Context Agent",
+        "Insurance Opportunity Agent"
+      ],
+      "summary": "Five specialist agents produced aligned evidence. LLM Judge found no material contradiction; human reviewer approved rider coaching only.",
+      "agentDetails": [
+        {
+          "name": "Telemetry Quality Agent",
+          "role": "Data validation",
+          "status": "Complete",
+          "confidence": 0.97,
+          "output": "90-day telemetry passed completeness checks.",
+          "evidence": [
+            "Ride event coverage 96%",
+            "Timestamp sequence consistent",
+            "Outlier scan completed"
+          ]
+        },
+        {
+          "name": "Riding Behaviour Agent",
+          "role": "Behaviour analytics",
+          "status": "Complete",
+          "confidence": 0.91,
+          "output": "Smooth braking and consistent riding cadence observed.",
+          "evidence": [
+            "Smoothness trend assessed",
+            "Harsh braking frequency assessed",
+            "Protected attributes excluded"
+          ]
+        },
+        {
+          "name": "Vehicle Health Agent",
+          "role": "Predictive maintenance",
+          "status": "Complete",
+          "confidence": 0.94,
+          "output": "Vehicle health index is 94/100; no urgent maintenance signal.",
+          "evidence": [
+            "Battery proxy checked",
+            "Service adherence checked",
+            "No diagnostic fault claim"
+          ]
+        },
+        {
+          "name": "Exposure Context Agent",
+          "role": "Context modelling",
+          "status": "Complete",
+          "confidence": 0.82,
+          "output": "Coarse exposure bands prepared without raw route history.",
+          "evidence": [
+            "Night-use share band",
+            "Distance band",
+            "No raw GPS included"
+          ]
+        },
+        {
+          "name": "Insurance Opportunity Agent",
+          "role": "Commercial matching",
+          "status": "Complete",
+          "confidence": 0.86,
+          "output": "Consent-led insurance renewal conversation may be relevant; no premium decision is generated.",
+          "evidence": [
+            "Purpose-specific consent checked",
+            "Insurer owns underwriting",
+            "Commission is illustrative"
+          ]
+        }
+      ],
+      "judge": {
+        "name": "LLM Judge · Evidence & Policy Reviewer",
+        "score": 0.94,
+        "verdict": "HUMAN REVIEW COMPLETED",
+        "reason": "Evidence was sufficient for a human-reviewed coaching insight. Insurance use remained purpose-specific and consent-gated.",
+        "checks": [
+          {
+            "label": "Evidence sufficiency",
+            "result": "Pass"
+          },
+          {
+            "label": "Consent boundary",
+            "result": "Pass"
+          },
+          {
+            "label": "Protected data exclusion",
+            "result": "Pass"
+          },
+          {
+            "label": "No automated underwriting",
+            "result": "Pass"
+          },
+          {
+            "label": "Agent disagreement",
+            "result": "Low"
+          }
+        ]
+      }
+    }
+  ],
+  "audit": [
+    {
+      "id": "AUD-E82B5C9F",
+      "time": "2026-11-02T08:30:24.738Z",
+      "actor": "AI Orchestrator",
+      "action": "Agent workflow completed",
+      "target": "RUN-8224736",
+      "purpose": "Human review queue"
+    },
+    {
+      "id": "AUD-001",
+      "time": "2026-11-02T09:42:00.000Z",
+      "actor": "Ather Admin",
+      "action": "Recommendation approved",
+      "target": "REC-01",
+      "purpose": "Rider coaching"
+    }
+  ],
+  "demoRequests": [],
+  "serviceRequests": [],
+  "settings": {
+    "theme": "day",
+    "commissionRate": 12,
+    "scoring": {
+      "safeRiding": 45,
+      "ruleFollowing": 25,
+      "vehicleCare": 20,
+      "exposure": 10
+    }
+  }
+}
