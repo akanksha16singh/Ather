@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "start": "node server.mjs",
-    "dev": "node --watch server.mjs",
+    "dev": "node server.mjs",
+    "build": "npm run check",
+    "lint": "npm run check",
     "check": "node --check server.mjs && node --check generate-sample-data.mjs && node --check test-e2e.mjs",
     "test:e2e": "node test-e2e.mjs"
   },

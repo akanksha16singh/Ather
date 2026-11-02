@@ -6,7 +6,7 @@ import crypto from "node:crypto";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA = path.join(__dirname, "data.json");
-const PORT = Number(process.env.PORT || 4173);
+const PORT = Number(process.env.PORT || 3000);
 const seed = JSON.parse(fs.readFileSync(DATA, "utf8"));
 let state = JSON.parse(JSON.stringify(seed));
 const demoUsers = [
@@ -141,4 +141,4 @@ async function route(req,res){
 }
 function serveFile(res,file){if(!fs.existsSync(file)){res.writeHead(404);return res.end("Not found");}const ext=path.extname(file);const type=ext===".html"?"text/html":ext===".png"?"image/png":"text/plain";res.writeHead(200,{"Content-Type":type});res.end(fs.readFileSync(file));}
 const server=http.createServer((req,res)=>{Promise.resolve(route(req,res)).catch(e=>json(res,500,{error:e.message||"Server error"}));});
-server.listen(PORT,()=>console.log(`Ather Mobility Intelligence running at http://localhost:${PORT}`));
+server.listen(PORT,"0.0.0.0",()=>console.log(`Ather Mobility Intelligence running at http://0.0.0.0:${PORT}`));
